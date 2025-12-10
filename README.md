@@ -2,11 +2,57 @@
 [![Python](https://img.shields.io/badge/python-3.10%2B-lightgrey.svg)](https://www.python.org/)
 
 
-# Financial Markets Regime Detection & Liquidity Stress Modelling System
+# 📉 Financial Market Regime Detection & Liquidity Stress Modelling System
 
-**Project:** Market-Regime-Liquidity-Model
+A Quantitative Analytics Framework for RBI FMD & Financial Stability Units
 
-**Purpose:** Professional-grade toolkit (RBI FMD / ISI/IIT-level) for detecting market regimes and liquidity stress using volatility, yield-curve and LAF (Liquidity Adjustment Facility) data. The repository contains scripts to download, clean, analyze, model (HMM) and produce policy-ready diagnostics and visualizations.
+## 📌 Overview
+
+This project models market volatility, liquidity stress, yield‑curve shifts, and detects hidden market regimes using a Hidden Markov Model (HMM). It combines volatility features, liquidity indicators, and interest‑rate structure to infer market states such as:
+- Stable regime
+- High‑volatility regime
+- Liquidity‑stress regime
+- Panic regime
+
+Suitable for:
+- RBI Financial Markets Department (FMD)
+- RBI FSU: Systemic Risk Analytics
+- Macro‑Quant research profiles
+
+## 📊 Data Inputs
+- NIFTY/BANKNIFTY prices
+- India VIX
+- G‑Sec yields (1Y, 3Y, 5Y, 10Y)
+- Liquidity surplus/deficit data
+
+## 🔍 Methodology
+
+### ✔ Volatility Analysis
+- Realized volatility
+- Rolling volatility
+- Volatility clustering
+
+### ✔ Liquidity Stress Indicators
+- LAF deficit/surplus changes
+- Yield curve steepening/flattening
+- Risk‑off vs risk‑on detection
+
+### ✔ Yield Curve Modelling
+- Term structure plotting
+- Slope & curvature metrics
+- Regime-dependent curve behavior
+
+### ✔ Hidden Markov Model (HMM)
+- 2–4 regime fitting
+- Transition probabilities
+- Regime labeling
+- Combined volatility+liquidity inference
+
+## 🏛️ Policy & Markets Insights
+- Relationship between liquidity & volatility
+- How yield curve changes reflect stress
+- Possible RBI interventions during specific regimes
+- Stability implications
 
 ---
 
