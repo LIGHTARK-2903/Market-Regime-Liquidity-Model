@@ -44,8 +44,6 @@ Market-Regime-Liquidity-Model/
 │   ├── yield_curve_metrics.png
 │   ├── yield_curve_snapshots.png
 │   └── hmm_regime_ensemble.png
-├── notebooks/                    # research / reproducible analysis
-│   └── main.ipynb                # master notebook combining steps & figures
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # this file (full instructions)
 ├── policy_report.pdf             # downloadable executive report (generate locally)
