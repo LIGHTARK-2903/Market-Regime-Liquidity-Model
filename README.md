@@ -1,3 +1,8 @@
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10%2B-lightgrey.svg)](https://www.python.org/)
+[![Build](https://github.com/LIGHTARK-2903/Market-Regime-Liquidity-Model/actions/workflows/ci.yml/badge.svg)](https://github.com/LIGHTARK-2903/Market-Regime-Liquidity-Model/actions)
+[![Downloads](https://img.shields.io/badge/downloads-n/a-lightgrey.svg)](#)
+
 # Financial Markets Regime Detection & Liquidity Stress Modelling System
 
 **Project:** Market-Regime-Liquidity-Model
