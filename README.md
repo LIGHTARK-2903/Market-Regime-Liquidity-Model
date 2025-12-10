@@ -115,57 +115,6 @@ python src/hmm_diagnostics.py      # optional: produces Excel diagnostics
 
 ---
 
-## How to generate `policy_report.pdf` (two recommended methods)
-
-### Method A — From Jupyter Notebook (recommended)
-
-1. Open `notebooks/main.ipynb` and run the cells to reproduce figures and summary tables.
-2. Export to PDF via the notebook UI: `File -> Export As -> PDF` or use nbconvert:
-
-```powershell
-jupyter nbconvert --to pdf notebooks/main.ipynb --output policy_report.pdf
-```
-
-This creates `policy_report.pdf` in the working directory. If you need a polished layout, edit the notebook cells to include a cover page and executive summary first.
-
-### Method B — Use a template Word/LaTeX and convert to PDF
-
-Prepare a short LaTeX/Markdown template that embeds the PNGs from `plots/` and the numeric tables from CSV (e.g., `data/clean/hmm_regime_diagnostics.xlsx` or `market_dataset_with_regimes.csv`), then compile to PDF.
-
----
-
-## How to commit & push to GitHub (beginner-friendly)
-
-1. Initialize repo (if not done already):
-
-```powershell
-git init
-git add .
-git commit -m "Initial: Market-Regime-Liquidity-Model - pipeline and README"
-```
-
-2. Create a new repository on GitHub (use your account). Copy the remote URL and run:
-
-```powershell
-git remote add origin https://github.com/<your-username>/Market-Regime-Liquidity-Model.git
-git branch -M main
-git push -u origin main
-```
-
-3. Best practice: do **NOT** push raw large data (e.g., `data/raw/*`) — add them to `.gitignore` if they are large. Example `.gitignore` entries:
-
-```
-/data/raw/*
-__pycache__/
-.venv/
-.DS_Store
-*.pyc
-```
-
-4. If you must share sample data, commit only small, synthetic test CSVs (e.g., `data/raw/gsec_sample.csv`).
-
----
-
 ## 📘 Author
 
 **Naman Narendra Choudhary**
